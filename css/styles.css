@@ -87,8 +87,9 @@
 }
 
 .beer-gear{
-  padding-left: 9em;
-  padding-top: 3.5em;
+  text-align: right;
+  padding-top: 3.6em;
+  padding-right: .5em;
   font-size: 6em;
   color: #F4F3E0;
   font-family:'baseninesc';
