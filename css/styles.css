@@ -304,3 +304,35 @@ padding-top: 1em;
   font-size: 1.25em;
   color: grey;
 }
+
+/* Footer */
+
+.footer {
+  background-color: #3D3935;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer h3 {
+  display: inline;
+  font-family: 'baseninesc';
+  font-size: 2em;
+  padding: 1em;
+  color: #F4F3E0;
+  padding-bottom: 1em;
+}
+
+.footer-links h3:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  background-color: #3D3935;
+  text-align: center;
+  font-size: 1.25em;
+  color: grey;
+  letter-spacing: .2em;
+  /* padding-top: 2em;
+  padding-bottom: 2em; */
+}
