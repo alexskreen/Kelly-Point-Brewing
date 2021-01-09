@@ -81,8 +81,9 @@
   background: url('../img/BreweryBranding_Winter2020-4_websize.jpg');
   background-position-y: -26em;
   background-position-x: 0em;
-  /* background-position: center; */
   background-repeat: no-repeat;
+  border-bottom: 1.5em solid #F4F3E0;
+
 }
 
 .beer-gear{
@@ -96,7 +97,8 @@
 
 .blocks{
   height: 30em;
-  border-top: 3em solid #F4F3E0;
+  border-top: 1.5em solid #F4F3E0;
+  border-bottom: 1.5em solid #F4F3E0;
   border-left: 1em solid #F4F3E0;
   border-right: 1em solid #F4F3E0;
 }
@@ -214,4 +216,34 @@
   color: #F4F3E0;
   font-family:'baseninesc';
   text-shadow: 2px 2px 8px black;
+}
+
+/* Keep In Touch bar */
+
+.KIT-bar{
+  background: #ADC6CA;
+  height: 6.5em;
+}
+
+.KIT{
+  height: 3em;
+  width: 50em;
+  position: relative;
+  margin: 0 auto;
+  padding-top: .0625em;
+  padding-bottom: .0625em;
+  text-align: center;
+  font-family:'baseninesc';
+}
+
+.fab {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+hr {
+  border-color: #F4F3E0;
+  background-color: #F4F3E0;
+  border: none;
+  opacity: 1;
 }
