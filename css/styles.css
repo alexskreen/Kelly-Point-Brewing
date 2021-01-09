@@ -94,24 +94,28 @@
 }
 
 .blocks{
-  height: 25em;
+  height: 30em;
   border-top: 3em solid #F4F3E0;
   border-left: 1em solid #F4F3E0;
   border-right: 1em solid #F4F3E0;
 }
 
+/* First row of category images */
+
 /* New Gear */
 .new-gear{
   background: url('https://github.com/alexskreen/Kelly-Point-Brewing/blob/master/img/BreweryBranding_Winter2020-18_websize.jpg?raw=true');
-  background-position-y: -23em;
-  background-position-x: -11em;
-  border-right: .25em solid #F4F3E0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -6em;
+  /* background-position-x: 1em; */
+  border-right: .5em solid #F4F3E0;
 }
 
 .new-gear-text {
   text-align: center;
-  padding-top: 2.5em;
-  font-size: 3em;
+  padding-top: 3em;
+  font-size: 3.5em;
   color: #F4F3E0;
   text-shadow: 2px 2px 8px black;
 }
@@ -119,6 +123,75 @@
 /* Ladies */
 .ladies{
   background: url('https://github.com/alexskreen/Kelly-Point-Brewing/blob/master/img/BreweryBranding_Winter2020-14_websize.jpg?raw=true');
-  border-left: .25em solid #F4F3E0;
+  border-left: .5em solid #F4F3E0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -6em;
+  /* background-position-x: 1em; */
+}
 
+.ladies-text {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 3.5em;
+  color: #F4F3E0;
+  text-shadow: 2px 2px 8px black;
+}
+
+/* Second row of category images */
+
+/* Mens */
+
+.mens{
+  background: url('https://github.com/alexskreen/Kelly-Point-Brewing/blob/master/img/BreweryBranding_5Panel_HollyHursley-9_websize.jpg?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -6em;
+  /* background-position-x: 1em; */
+  border-right: .5em solid #F4F3E0;
+}
+
+.mens-text {
+  text-align: center;
+  padding-top: 3.25em;
+  font-size: 3.5em;
+  color: #F4F3E0;
+  text-shadow: 2px 2px 8px black;
+}
+
+/* Hats */
+.hats{
+  background: url('https://github.com/alexskreen/Kelly-Point-Brewing/blob/master/img/BreweryBranding_5Panel_HollyHursley-5_websize.jpg?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -6em;
+  /* background-position-x: 1em; */
+  border-left: .5em solid #F4F3E0;
+  border-right: .5em solid #F4F3E0;
+}
+
+.hats-text {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 3.5em;
+  color: #F4F3E0;
+  text-shadow: 2px 2px 8px black;
+}
+
+/* Merch */
+.merch{
+  background: url('https://github.com/alexskreen/Kelly-Point-Brewing/blob/master/img/BreweryBranding_Winter2020-21_websize.jpg?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position-y: .5em; */
+  /* background-position-x: 1em; */
+  border-left: .5em solid #F4F3E0;
+}
+
+.merch-text {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 3.5em;
+  color: #F4F3E0;
+  text-shadow: 2px 2px 8px black;
 }
