@@ -7,31 +7,36 @@
 
 /* 1st bar above lgo */
 .top-bar {
-  height: 3em;
+  height: 5em;
   background: #3D3935;
   border-bottom: .5em solid #F4F3E0;
-  z-index: 2;
 }
 
 /* bar behind diamond logo */
 .second-bar{
-  height: 10em;
+  height: 14em;
   background: #3D3935;
-  border-bottom: 1em solid #F4F3E0;
-  z-index: 3;
 }
 
 /* large diamond logo above nav */
 .logo {
-z-index: 4;
+  margin-top: -26.5em;
+  position: relative;
+}
+
+.main-logo {
+  height: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Nav bar */
 .category-navbar{
+  margin-top: 0em;
   background-color: #3D3935;
-  border-bottom: 1em solid #F4F3E0;
-  z-index: 2;
-  /* margin-top: -33px; */
+  border-top: .5em solid #F4F3E0;
+  border-bottom: .5em solid #F4F3E0;
 }
 
 .nav-item{
@@ -48,7 +53,7 @@ z-index: 4;
 }
 
 .visit {
-  padding-left: 4em;
+  padding-left: 5em;
 }
 
 .gear {
@@ -67,4 +72,20 @@ z-index: 4;
 
 .gear {
   /* font-family:'baseninesc'; */
+}
+
+/* Hero Image */
+.hero-image {
+  height: 30em;
+  margin-top: -3em;
+  background: url('https://github.com/alexskreen/Kelly-Point-Brewing/blob/master/img/BreweryBranding_Winter2020-4_websize.jpg?raw=true');
+  background-position-y: -26em;
+}
+
+.beer-gear{
+  padding-left: 12em;
+  padding-top: 4.5em;
+  font-size: 5em;
+  color: #F4F3E0;
+  text-shadow: 2px 2px 8px black;
 }
