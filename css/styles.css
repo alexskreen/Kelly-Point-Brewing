@@ -1,27 +1,70 @@
 /* Fonts */
+/* To-do: this doesn't work yet */
 @font-face {
-    font-family: 'BaseNinSC';
-    src: url('fonts/BaseNinSC.ttf');
+   font-family: 'baseninesc' ;
+   src: url('/fonts/BaseNinSC.ttf') format('truetype');
 }
 
+/* 1st bar above lgo */
 .top-bar {
   height: 3em;
   background: #3D3935;
   border-bottom: .5em solid #F4F3E0;
+  z-index: 2;
 }
 
+/* bar behind diamond logo */
 .second-bar{
   height: 10em;
   background: #3D3935;
   border-bottom: 1em solid #F4F3E0;
+  z-index: 3;
 }
 
+/* large diamond logo above nav */
+.logo {
+z-index: 4;
+}
+
+/* Nav bar */
 .category-navbar{
   background-color: #3D3935;
   border-bottom: 1em solid #F4F3E0;
+  z-index: 2;
+  /* margin-top: -33px; */
 }
 
-.dropdown {
-  padding-left: 10em;
-  font-family: BaseNinSC;
+.nav-item{
+  font-size: 2em;
+}
+
+.nav-link {
+  color: #F4F3E0;
+  text-shadow: 2px 2px 8px black;
+}
+
+.beer {
+  padding-left: 4em;
+}
+
+.visit {
+  padding-left: 4em;
+}
+
+.gear {
+  padding-left: 14em;
+}
+
+/* .dropdown-menu{
+  padding-left: 56em;
+  background-color: #3D3935;
+} */
+
+.about {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.gear {
+  /* font-family:'baseninesc'; */
 }
