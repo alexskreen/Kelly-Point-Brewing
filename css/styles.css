@@ -241,9 +241,46 @@
   padding-right: .5em;
 }
 
+.fab:hover {
+  cursor: pointer;
+}
+
 hr {
   border-color: #F4F3E0;
   background-color: #F4F3E0;
   border: none;
   opacity: 1;
+}
+
+/* Bottom Nav Bar */
+
+.bottom-nav {
+  height: 20em;
+  padding-top: 3em;
+}
+
+.bottom-nav-text {
+  text-align: center;
+  font-family: 'baseninesc';
+  font-size: 2em;
+}
+
+.footer-icon {
+  padding-right: .5em;
+}
+
+.brewery-details {
+  padding-top: .25em;
+  text-align: center;
+  font-size: 1em;
+  color: grey;
+}
+
+.brewery-time {
+padding-right: 3em;
+}
+
+.brewery-phone {
+padding-right: 3.5em;
+padding-top: 1em;
 }
