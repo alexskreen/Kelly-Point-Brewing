@@ -1,0 +1,27 @@
+/* Fonts */
+@font-face {
+    font-family: 'BaseNinSC';
+    src: url('fonts/BaseNinSC.ttf');
+}
+
+.top-bar {
+  height: 3em;
+  background: #3D3935;
+  border-bottom: .5em solid #F4F3E0;
+}
+
+.second-bar{
+  height: 10em;
+  background: #3D3935;
+  border-bottom: 1em solid #F4F3E0;
+}
+
+.category-navbar{
+  background-color: #3D3935;
+  border-bottom: 1em solid #F4F3E0;
+}
+
+.dropdown {
+  padding-left: 10em;
+  font-family: BaseNinSC;
+}
