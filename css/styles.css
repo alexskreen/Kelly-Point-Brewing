@@ -255,8 +255,9 @@ hr {
 /* Bottom Nav Bar */
 
 .bottom-nav {
-  height: 20em;
-  padding-top: 3em;
+  height: 24em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .bottom-nav-text {
@@ -283,4 +284,23 @@ padding-right: 3em;
 .brewery-phone {
 padding-right: 3.5em;
 padding-top: 1em;
+}
+
+.bottom-nav-beer {
+  border-left: 5px solid grey;
+}
+
+.footer-details {
+  padding-top: 1.5em;
+}
+
+.footer-details p:hover {
+  cursor: pointer;
+}
+
+.footer-details-text {
+  text-align: center;
+  font-family: 'baseninesc';
+  font-size: 1.25em;
+  color: grey;
 }
